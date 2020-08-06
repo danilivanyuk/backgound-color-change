@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Change Background Color Project</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+	    height: 100vh;
+    }
+    #change_color{
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 2rem;
+      padding: 10px;
+      border-radius: 25px;
+      border: 1px solid #000;
+      outline: none;
+      display: inline-block;
+      cursor: pointer;
+      background:transparent;
+      transition: all 200ms;
+    }
+    #change_color:hover{
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <button id="change_color">Change Color</button>
+  </div>
+  <script src="change_background_color_project.js"></script>
+</body>
+</html>
